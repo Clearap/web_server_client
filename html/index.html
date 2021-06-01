@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="ko">
 	<head>
 	</head>
@@ -34,11 +34,139 @@
 					<label><input type="checkbox" name="fruit" id="apple">사과</label>
 					<label><input type="checkbox" name="fruit" id="strawberry">딸기</label>
 				</li>
-				<!-- <li><input type="button" value="버튼"></li>
+				<li><input type="button" value="버튼"></li>
 				<li><input type="submit" value="제출"></li>
-				<li><button>버튼2</button></li> -->
+				<li><button>버튼2</button></li>
 				<li><div class="colorBtn">버튼입니다</div></li>
 			</ul>
 		</form>
+	</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="ko">
+	<head>
+
+	</head>
+	<body>
+		<style>
+		</style>
+		<a href="https://www.naver.com">네이버 바로가기!</a>
+		<img src="image/1.png">
+	</body>
+</html> -->
+<!-- 
+<!doctype html>
+<html lang="ko">
+	<head>
+	</head>
+	<body>
+		<style>
+			* {
+			border-collapse: collapse;
+			margin:0px;
+			padding:0px;
+			text-decoration: none;
+			color: black;
+			list-style:none;
+			}
+			.blankPosition{
+				width: 50%;
+				height: 200px;
+				background: gray;
+			}
+			.relativePosition{
+				width: 100%;
+				height: 200px;
+				background: pink;
+			}
+			.relativePosition > div{
+				padding: 50px;
+				background: red;
+				margin-top: 10px;
+			}
+			.relativePosition > div:first-child{
+				position: relative;
+				top:-100px;
+			}
+			.absolutePosition{
+				width: 100%;
+				height: 200px;
+				background: violet;
+			}
+			.absolutePosition > div{
+				position: absolute;
+				right: 200px;
+				bottom: 0px;
+				background: blue;
+				width: 400px;
+				height: 100px;
+			}
+			.fixedPosition{
+				width: 100%;
+				height: 500px;
+				background: skyblue;
+			}
+			.fixedPosition > div{
+				position: fixed;
+				background: royalblue;
+				width: 100px;
+				height: 100px;
+				top: 0px;
+				left: 0px;
+			}
+		</style>
+		<div class="blankPosition">
+			<div>blank</div>
+		</div>
+		<div class="relativePosition">
+			<div>relative</div>
+			<div>relative</div>
+		</div>
+		<div class="absolutePosition">
+			<div>absolute</div>
+		</div>
+		<div class="fixedPosition">
+			<div>fixed</div>
+		</div>
+	</body>
+</html> -->
+
+<!doctype html>
+<html lang="ko">
+	<head>
+
+	</head>
+	<body>
+		<style>
+			*{
+				border-collapse: collapse;
+				margin: 0px;
+				padding: 0px;
+				text-decoration: none;
+				color: black;
+				list-style: none;
+			}
+			div>span{
+				background: pink;
+			}
+			div > div{
+				background: orange;
+				border: 1px solid white;
+				flex: 1;
+			}
+			.flexable{
+				display: flex;
+			}
+		</style>
+		<div>
+			<span>span</span>
+			<span>span</span>
+		</div>
+		<div class="flexable">
+			<div>div</div>
+			<div>div</div>
+			<div>div</div>
+		</div>
 	</body>
 </html>
